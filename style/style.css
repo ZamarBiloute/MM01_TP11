@@ -1,0 +1,83 @@
+*{
+    max-width: 1240px;
+    box-sizing: border-box;
+}
+
+.barre{
+  width: 1280px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.main-nav a {
+  float: left;
+  width: 20%;
+  background: #343434;
+}
+
+.main-nav>a:first-child {
+  border-bottom-left-radius: 3px
+}
+
+.main-nav>a:last-child {
+  border-bottom-right-radius: 3px
+}
+nav a {
+  color: inherit;
+  display: block;
+  padding: 17px 25px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  background: #A62A2A;
+}
+
+body{
+    margin: 0 auto;
+    color: white;
+    max-width: 1280px;
+}
+
+.parallax {
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.slide_debut{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url("image/parralax/chatacabra.png");
+}
+
+.contenue{
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.contenue p{
+    padding: 50px;
+    align-items: center;
+    font-size: 1.3rem;
+    color: black;
+}
+
+.background-acceuil{
+    background-image: url("image/acceuil/background.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
