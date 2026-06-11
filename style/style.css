@@ -6,19 +6,14 @@ nav{
   z-index: 100;
 }
 
-.rubrique:hover > a{
-	color:#FFFFFF;
-	font-weight:bold;
-	text-decoration:none
-}
 
 .rubrique > a{
 	color: black;
-	text-decoration:none
+	text-decoration:none;
 }
 
 .main_nav{
-	border-spacing:-0px
+	border-spacing:-0px;
 } 
 
 .main_nav{
@@ -29,14 +24,14 @@ nav{
 .rubrique:hover > a{
 	color:black;
 	font-weight:bold;
-	text-decoration:none
+	text-decoration:none;
 }
 
 .rubrique:hover{
 	opacity:1;
 	background-color:#C4342D;
 	visibility:visible;
-	top:50px
+	/* top:50px; */
 }
 
 .main_nav a{
@@ -46,24 +41,21 @@ nav{
 	vertical-align:middle;
 	height:50px;
 	text-align:center;
-	/* -webkit-transition:all 0.25s ease;
+	-webkit-transition:all 0.25s ease;
 	-moz-transition:all 0.25s ease;
 	-ms-transition:all 0.25s ease;
 	-o-transition:all 0.25s ease;
-	transition:all 0.25s ease; */
+	transition:all 0.25s ease;
 }
 
 
 .rubrique > a{
 	color:#FFFFFF;
-	text-decoration:none
+	text-decoration:none;
+  vertical-align: middle;
+  display: table-cell;
 }
 
-.rubrique:hover > a{
-	color:#FFFFFF;
-	font-weight:bold;
-	text-decoration:none
-}
 .rubrique{
 	background-color:#E74C3C;
 	float:left;
@@ -71,10 +63,11 @@ nav{
 	width:20%;
 	text-align:center;
 	display:table;
+  height: 50px;
 }
-.rubrique:hover{
+/* .rubrique:hover{
 	background-color:#C4342D;
-}
+} */
 .main_nav{
 	position:relative;
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
@@ -100,11 +93,11 @@ nav{
 {
     right:10px;
     left:auto;
-    /* -webkit-transform:skew(8deg) rotate(3deg);
+    -webkit-transform:skew(8deg) rotate(3deg);
        -moz-transform:skew(8deg) rotate(3deg);
         -ms-transform:skew(8deg) rotate(3deg);
          -o-transform:skew(8deg) rotate(3deg);
-            transform:skew(8deg) rotate(3deg); */
+            transform:skew(8deg) rotate(3deg);
 }
 
 
@@ -117,6 +110,7 @@ body{
     margin: 0;
     color: white;
     padding: 0;
+    
 }
 
 .parallax {
@@ -134,7 +128,7 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-image: url("image/parralax/chatacabra.png");
+    background-image: url("../image/parralax/chatacabra.jpg");
 }
 
 .contenue{
@@ -151,9 +145,10 @@ body{
     font-size: 1.3rem;
     color: black;
 }
+/* background image */
 
 .background-acceuil{
-    background-image: url("image/acceuil/background.jpg");
+    background-image: url("../image/acceuil/background.jpg");
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
